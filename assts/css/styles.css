@@ -10,11 +10,16 @@ body
   font-family: 'Poppins', sans-serif;
   background-color: #f5f5f5;
   scroll-behavior: smooth;
+
 }
+
+/*header starts */
 header {
   padding: 1rem 0;
-  position: sticky;
+  position: fixed;
+  width:100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background:linear-gradient(135deg, #f975ee 0%, #2b97eb 100%);
 }
 
 header nav{
@@ -25,16 +30,17 @@ header nav{
 
 header nav  .logo {  
   text-decoration: none;
-  padding:0 2.5rem;
-  color: #ff2600;
-  font-size: 1.5rem;
+  padding-left: 70px;
+  color: #ffffff;
+  font-size: 2rem;
   font-weight: 800;
   transition: color 0.7s;
 }
 
 header   nav .logo:hover {
+  animation: fadeInUp 0.5s ease-in-out;
   text-decoration: underline;
-  color: #dfc60794;
+  color: #0d0d9e94;
   font-size: 1.52rem;
 }
 
@@ -50,11 +56,115 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #20538aad;
-  font-weight: 500;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 800;
   transition: color 0.3s, transform 0.3s;
 }
 header nav ul li a:hover {
-  color: #ff6347;
+  text-decoration: underline;
+  color: #1039cc;
   transform: scale(2.1);
 }
+/*header over */
+
+.fullscreen{
+  height: 100vh;
+  display: flex;
+}
+/* home start */
+
+.home { 
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ .home .content {
+  margin-top :10%;  
+  margin-left: 10%;
+}
+
+.home .content h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 5%;
+}
+
+.home .content p {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.home .image 
+{
+  margin-top: 10px;
+  margin-right: 12%;
+}
+
+.home .image #profile-pic 
+{
+  width: 500px;
+  height: 600px;
+  border-radius: 10%;
+  border: 3px solid #040404;
+  mix-blend-mode: normal;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
+#profile-pic :hover
+
+{
+  border: 3px solid #ff0808;
+
+  mix-blend-mode: luminosity;
+}
+
+/* home ends */
+
+
+/* about start */
+.about {
+  padding: 7% 0;
+}
+
+.about .title
+{
+  margin-left: 45%;
+}
+
+.about .title #me
+{
+  font-size: 2rem;
+  font-weight: 800;
+  color: #f975ee;
+  margin-bottom: 5%;
+}
+
+.about #summary
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+
+}
+
+/* about ends */
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
