@@ -4,67 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sai Kesav's Portfolio</title>
-    <link rel="stylesheet" href="assts/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 </head>
 <body>
-    <header>
-        
-
-        <nav>
-            <div><a href="index.html" class="logo">sai kesav</a> </div> 
-            
-                <ul>
-                    <li><a href="#fullscreen home">Home</a></li>
-                    <li><a href="#summary">About ME</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#internships">Internships</a></li>
-                    <li><a href="#certifications">Certifications</a></li>
-                    <li><a href="#activities">Activities</a></li>
-                </ul>
-            
+    <header class="fade-element">
+        <nav class="fade-element">
+            <div><a href="index.html" class="logo fade-element">Sai Kesav</a></div>
+            <ul class="fade-element">
+                <li><a href="#home" class="fade-element">Home</a></li>
+                <li><a href="#about" class="fade-element">About Me</a></li>
+                <li><a href="#education" class="fade-element">Education</a></li>
+                <li><a href="#skills" class="fade-element">Skills</a></li>
+                <li><a href="#projects" class="fade-element">Projects</a></li>
+                <li><a href="#internships" class="fade-element">Internships</a></li>
+                <li><a href="#certifications" class="fade-element">Certifications</a></li>
+                <li><a href="#activities" class="fade-element">Activities</a></li>
+            </ul>
         </nav>
     </header>
     
-    <main>
-        <section id="contact" class="fullscreen home">
-            
-                <div class="content">
-                    <h1 id="name">Hi, I'm Sai Kesav</h1>
-                    <p id="student">Computer Science Student</p>
-                    <p id="place">Visakhapatnam, India</p>
-                </div>
-                <div class="image">
-                    <img id="profile-pic" src="assts/img/profile.jpg" alt="profile pic">
-                </div>
-                
-            
-
-        </section>
-
-        <section id="about" class="fullscreen about">
-            
-                <h2 class="title">
-                    <i class="fa-solid fa-user"></i>
-                    About
-                    <span id ="me">Me</span>
-                </h2>
-                <br>
-               
-                    
-        </section>
-        
-        </main>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Gained Venkata Sai Kesav. All rights reserved.</p>
+    <section id="home" class="home">
+        <div class="content fade-element">
+            <h1 id="name" class="fade-element">Hi, I'm Sai Kesav</h1>
+            <p id="student" class="fade-element">Computer Science Student</p>
+            <p id="place" class="fade-element">Visakhapatnam, India</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/saikesav_sai/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sai-kesav-gainedi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.github.com/saikesav-sai/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.credly.com/users/22135a0504-gainedi-venkata-sai-kesav/" target="_blank"><i class="fa-regular fa-id-badge"></i></a>
+            </div>
         </div>
-    </footer> 
+    </section>
+
+    <section id="about" class="about ">
+        <div class="title ">
+            <i class="fa-solid fa-user "></i>
+            <h2 >About <span class="highlight ">Me</span></h2>
+        </div>
+        <div class="content ">
+            <div class="image ">
+                <img  draggable="false"  id="profile-pic" src="assets/img/profile.jpg" alt="Profile Picture" >
+            </div>
+            <div class="fade-element"  >
+                <h2  >I'm Sai Kesav</h2>
+                <p >
+                    Passionate B. Tech student from Visakhapatnam, proficient in Python, Java, machine learning, and cloud technologies, 
+                    recognized for leadership in transformative projects and virtual internships with industry titans. 
+                    Certified in Google Data Analytics and Cisco CCNA.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="title">
+            <i class="fa-solid fa-graduation-cap "></i>
+            <h2 >Education</h2>
+        </div>
+        <div class="education-item ">
+            <img src="assets/img/engineering.jpg" alt="Engineering College" >
+            <div class="education-item-content ">
+                <h2 class="fade-element">Bachelor of Engineering | Computer Science Engineering</h2>
+                <h3 class="fade-element">GVP College of Engineering</h3>
+                <h3 class="fade-element">2022-2025 | Pursuing</h3>
+            </div>
+        </div>
+        <div class="education-item ">
+            <img src="assets/img/diploma.png" alt="Diploma College">
+            <div class="education-item-content ">
+                <h2 class="fade-element">Diploma | Computer Science Engineering</h2>
+                <h3 class="fade-element">Sanketika Polytechnic College</h3>
+                <h3 class="fade-element">2019-2022</h3>
+            </div>
+        </div>
+        <div class="education-item  ">
+            <img src="assets/img/secondary.jpeg" alt="Secondary School" >
+            <div class="education-item-content-secondary ">
+                <h2 class="fade-element" >Secondary Schooling | SSC</h2>
+                <h3 class="fade-element">Visakha Vimala Vidayalam</h3>
+                <h3 class="fade-element">2014-2019</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container ">
+            <p >&copy; 2024 Gained Venkata Sai Kesav. All rights reserved.</p>
+        </div>
+    </footer>
     
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
+</html>
+
 </html>
