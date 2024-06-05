@@ -9,7 +9,7 @@
 
 
 .fade-in {
-  opacity: 0; /* Ensure the elements are initially hidden */
+  opacity: 0; /* test */
   animation: fadeIn 1s forwards; /* Apply the fade-in animation */
 }
 
