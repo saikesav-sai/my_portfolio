@@ -82,19 +82,16 @@ header nav ul li a {
   transition: color 0.3s, transform 0.3s;
 }
 header nav ul li a:hover {
-  text-decoration: underline;
-  color: #1039cc;
+  /* text-decoration: underline; */
+  color: #ffffff;
   transform: scale(2.1);
 }
 /*header over */
 
-.fullscreen {
-  height: 100%;
-}
 /* home start */
 
 .home { 
-  height: 100vh;
+  height: 100%;
   padding-top: 5%;
   display: flex;
   justify-content: space-between;
@@ -135,6 +132,41 @@ header nav ul li a:hover {
   cursor: pointer;
 }
 
+
+.home .about-me 
+{
+  display: absolute;
+  background: #51cbff;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 110px;
+  font-size: 20px;
+  cursor: pointer;
+  /* margin-right: 60%; */
+  margin-top: 60px;
+  margin-left: 10%;
+  margin-right: 60%;
+    
+}
+.home .about-me:hover
+{
+  transition: 0.5s;
+  transform: scale(1.1);
+  background: #0eb7ff;
+
+
+}
+
+.home .about-me a
+{
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding-left: 10px;
+}
+
+
 .home .avatar
 {
   margin-right: 12%;
@@ -162,10 +194,10 @@ header nav ul li a:hover {
 .about .title {   
   display: flex;
   justify-content: center;
+  margin-top: 5%;
 }
 
-.about .title h2 {
-}
+
 
 .about .title span {
   font-size: 30px;
@@ -182,23 +214,24 @@ header nav ul li a:hover {
 
 .about .content {
   display: flex;
-  margin-left: 5%;
-  padding-top: 5rem;
+  margin-left: 8%;
+  padding-top: 2rem;
   align-items: center;
 }
 
 .about .content .image img {
-  width: 400px;
-  height: 500px;
+  width: 330px;
+  height: 420px;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  transition: 0.3s;
   mix-blend-mode: luminosity;
 }
 
 .about .content .image img:hover {
-  transition: 2s;
+  transition: .7s;
   mix-blend-mode: normal;
+  transform: scale(1.1);
+
 }
 
 
@@ -211,6 +244,33 @@ header nav ul li a:hover {
   line-height: 1.6;
   color: #000000;
   margin-left: 10%;
+}
+
+.about .content .resume
+{
+  position: absolute;
+  background: #51cbff;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 110px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 12%;
+  margin-top: 60px;
+}
+.about .content .resume:hover
+{
+  transition: 0.5s;
+  transform: scale(1.1);
+  background: #0eb7ff;
+
+}
+
+.about .content .resume a
+{
+  text-decoration: none;
+  color: #fff;
 }
 
 /* about ends */
@@ -287,78 +347,6 @@ header nav ul li a:hover {
 /* education ends */
 
 
-/*Skills starts */
-
-.skills {
-  height: 100%;
-  padding-top: 5%;
-  margin-bottom: 10vh;
-}
-
-.skills .title {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  margin-left: 48%;
-}
-
-.skills i {
-  font-size: 30px;
-  padding-right: 15px;
-}
-.skills .title h2 {
-  font-size: 30px;
-  color: #51cbff;
-}
-
-.skills .container {
-  width: 80%;
-  padding: 50px;
-  margin: auto;
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  margin-top: 10vh;
-  overflow: hidden;
-  transition: 2s;
-  background: #f3f7fa;
-
-}
-
-.category {
-  margin-bottom: 50px;
-  padding: auto;
-}
-.category h2
-{
-  text-align: center;
-  color: rgb(60, 186, 236);
-}
-
-h2 {
-  margin-bottom: 10px;
-}
-
-.grid {
-  padding-top: 15px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 10px;
-}
-
-.item {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  justify-content: center;
-}
-
-.item:hover {
-  transition: .3s;
-  background-color: #baff95e0;
-}
-
-/* skils ends*/
 
 
 /*projects start */
@@ -454,6 +442,81 @@ h2 {
   opacity: 1;
 }
 /*project ends */
+
+/*Skills starts */
+
+.skills {
+  height: 100%;
+  padding-top: 5%;
+  margin-bottom: 10vh;
+}
+
+.skills .title {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 48%;
+}
+
+.skills i {
+  font-size: 30px;
+  padding-right: 15px;
+}
+.skills .title h2 {
+  font-size: 30px;
+  color: #51cbff;
+}
+
+.skills .container {
+  width: 80%;
+  padding: 50px;
+  margin: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin-top: 10vh;
+  overflow: hidden;
+  transition: 2s;
+  background: #f8fcff;
+
+}
+
+.category {
+  margin-bottom: 50px;
+  padding: auto;
+}
+.category h2
+{
+  text-align: center;
+  color: rgb(60, 186, 236);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.grid {
+  padding-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.item:hover {
+  transition: .9s;
+  transform: scale(1.1);
+  background: #dedede;  
+}
+
+/* skils ends*/
+
 
 /*certifications starts */
 
