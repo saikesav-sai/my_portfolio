@@ -15,7 +15,7 @@ This portfolio website is a showcase of my skills, projects, and certification a
 ## Technologies Used 🛠️
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Hosting**: github pages
+- **Hosting**: Github Pages
 - **Version Control**: Git
 
 ## Installation & Setup ⚙️
