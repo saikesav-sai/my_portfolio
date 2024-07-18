@@ -385,18 +385,20 @@ header nav ul li a:hover {
 .projects .container
 {
 
-  margin-left: 10%;
+  /* margin-left: 10%; */
   padding-top:3%;
   align-items: center;
 }
 
-
+.projects .container .project-content
+{
+  padding-left: 15%;
+}
 .projects .container .project-content h1
 {
   padding-bottom: 10px;
   padding-top:30px;
   align-content: center;
-
 }
 
 
@@ -694,8 +696,4 @@ footer .container .lower .credit{
   text-align: center;
   padding: 1rem 0;
   padding-right: 10px;
-}
-footer .contact .lower .name
-{
- 
 }
