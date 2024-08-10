@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    scroll-behavior: smooth;
+  }
+/* Projects start */
+.projects {
+    padding: 0% 0;
+    margin-bottom: 15vh;
+  }
+
+.projects .section-title {
+    display: flex;
+    justify-content: center;
+}
+
+  .projects .section-title .back
+  {
+    width: 7%;
+    height: 10%;
+    background: #f5f5f5;
+    /* color: #000000; */
+    border: none;
+    border-radius: 110px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 10px ;
+    text-align: center;
+   
+    
+  }
+  .projects .section-title .back:hover
+  {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background: #f5f5f5;
+  
+  
+  }
+  
+  .projects .section-title .back a
+  {
+    text-decoration: none;
+    color: #242222;
+    
+  }
+  
+  .projects .section-title .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding-right: 12%;
+  }
+  
+  .projects .section-title .title i {
+    font-size: 30px;
+    padding-right: 15px;
+  }
+  
+  .projects .section-title .title h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #51cbff;
+  }
+  
+  .grid-container {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    justify-items: center; /* Center all items horizontally */
+    grid-gap: 2rem;
+    gap: 2rem;
+    padding: 0 5%;
+  }
+  
+  .project-card {
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(231, 202, 202, 0.1);
+  }
+  
+  .img-container {
+    position: relative;
+
+    padding-left: 15%;
+  }
+  
+  .img-container img {
+    margin-top: 30px;
+
+    width: 300px;
+    height: 400px;
+    /* object-fit: cover; */
+    /* align-items: center; */
+    border-radius: 10px ;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top:30px;
+    margin-left: 15%;
+    border-radius: 10px ;
+    width: 300px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay .link {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+  }
+  
+  .project-content {
+    padding: 20px;
+  }
+  
+  .project-content h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .project-content ul {
+    padding: 0;
+  }
+  
+  .project-content li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  /* Ensure the fourth project is centered in the second row */
+.middle-card {
+    grid-column: 2 / 3; /* Start at the second column, end at the third */
+    } 
+
+
+  /* Projects end */
+  

@@ -455,6 +455,42 @@ header nav ul li a:hover {
 .projects .container  .img-container:hover .overlay {
   opacity: 1;
 }
+
+.projects .see_more
+{
+  display:absolute;
+  background: #51cbff;
+  color: #fff;
+  border: none;
+  border-radius: 110px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 12px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 60px;
+  text-align: center ;  
+  
+}
+.projects .see_more:hover
+{
+  transition: 0.5s;
+  transform: scale(1.1);
+  background: #0eb7ff;
+
+
+}
+
+.projects .see_more a
+{
+  text-decoration: none;
+  color: #fff;
+  padding-left: 10px;
+  
+  
+}
+
+
 /*project ends */
 
 /*Skills starts */
