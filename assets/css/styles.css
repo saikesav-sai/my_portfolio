@@ -169,9 +169,7 @@ header nav ul li a:hover {
 {
   text-decoration: none;
   color: #fff;
-  padding-left: 10px;
-  
-  
+  padding-left: 5px;
 }
 
 
@@ -180,7 +178,7 @@ header nav ul li a:hover {
   width: 20px;
   height: 20px;
   margin-right:30%;
-  margin-top: 15vh;
+  margin-top: 5%;
 }
 .home .avatar img
 {
