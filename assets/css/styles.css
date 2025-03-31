@@ -436,7 +436,7 @@ header nav ul li a:hover {
 
 .projects .container .project-content
 {
-  padding-left: 15%;
+  padding-left: 10%;
 }
 .projects .container .project-content h1
 {
@@ -452,6 +452,7 @@ header nav ul li a:hover {
   margin-bottom: 10px;
   font-size: 20px;
   /* font-style: ; */
+  
 }
 .projects .footer 
 {
