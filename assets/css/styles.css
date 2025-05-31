@@ -122,6 +122,8 @@ header nav ul li a:hover {
 }
 .home .content .social-icons a
 { 
+  display: inline-block;
+  vertical-align: middle;
   margin-left: 10px;
   margin-right: 5px;
   transition: 0.3s;
@@ -132,12 +134,30 @@ header nav ul li a:hover {
   mix-blend-mode: luminosity;
 }
 
-.home .content .social-icons i:hover 
+.home .content .social-icons a:hover 
 {
   transition: 3s;
   transform: scale(1.1);
-  mix-blend-mode: normal;
+  filter: brightness(1) saturate(100%);
 }
+.home .content .social-icons .leetcode-icon {
+  display:inline-block;
+  width: 35px;
+  height: 35px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="blue" d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>') no-repeat center;
+  background-size: contain;
+}
+.home .content .social-icons .gfg-icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cg fill='%23339af0'%3E%3Cg transform='scale(5.33333,5.33333)'%3E%3Cpath d='M29.035,24c-0.021,-0.329 -0.035,-0.661 -0.035,-1c0,-6.08 2.86,-10 7,-10c3.411,0 6.33,2.662 7,7h2l0.001,-9h-2.001c0,0 -0.533,1.506 -1,1.16c-1.899,-1.066 -3.723,-1.132 -6.024,-1.132c-5.8,0 -10.976,5.232 -10.976,11.892c0,0.364 0.021,0.723 0.049,1.08h-2.099c0.029,-0.357 0.05,-0.716 0.05,-1.08c0,-6.66 -5.176,-11.892 -10.976,-11.892c-2.301,0 -4.125,0.065 -6.024,1.132c-0.467,0.346 -1,-1.16 -1,-1.16h-2.001l0.001,9h2c0.67,-4.338 3.589,-7 7,-7c4.14,0 7,3.92 7,10c0,0.339 -0.014,0.671 -0.035,1h-18.965v2h1.009c1.083,0 1.977,0.861 1.999,1.943c0.038,1.846 0.216,4.063 0.992,5.057c1.269,1.625 3,3 8,3c5.022,0 9.92,-4.527 11,-10h2c1.08,5.473 5.978,10 11,10c5,0 6.731,-1.375 8,-3c0.776,-0.994 0.954,-3.211 0.992,-5.057c0.022,-1.082 0.917,-1.943 1.999,-1.943h1.009v-2zM11.477,33.73c-1.605,0 -4.155,-0.006 -4.477,-1.73c-0.109,-0.583 -0.091,-2.527 -0.057,-4.046c0.025,-1.087 0.912,-1.954 2,-1.954h10.057c-0.794,4.781 -3.985,7.73 -7.523,7.73zM41,32c-0.322,1.724 -2.872,1.73 -4.477,1.73c-3.537,0 -6.729,-2.949 -7.523,-7.73h10.057c1.088,0 1.975,0.867 2,1.954c0.034,1.519 0.052,3.463 -0.057,4.046z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") no-repeat center;
+  background-size: contain;
+  filter: brightness(0) saturate(100%);
+
+}
+
+
 
 .home .about-me 
 {
@@ -177,12 +197,12 @@ header nav ul li a:hover {
 {
   width: 20px;
   height: 20px;
-  margin-right:30%;
+  margin-right:35%;
   margin-top: 5%;
 }
 .home .avatar img
 {
-  border-radius: 100%;
+  border-radius: 50%;
 
 }
 .home .avatar img:hover
