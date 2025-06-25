@@ -175,15 +175,16 @@ header nav ul li a:hover {
 }
 
 
-.home .avatar
+ .home .avatar
 {
-  width: 20px;
-  height: 20px;
-  margin-right:35%;
+  margin-right: 15%;
   margin-top: 5%;
 }
 .home .avatar img
 {
+  
+  width: 390px;
+  height: 480px;
   border-radius: 50%;
 
 }
