@@ -75,6 +75,14 @@ body {
     gap: 2rem;
     padding: 0 5%;
   }
+   .grid-container-first {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center; /* Center all items horizontally */
+    grid-gap: 2rem;
+    gap: 2rem;
+    padding: 0 5%;
+  }
   
   .project-card {
     /* background-color: #f9f9f9; */
