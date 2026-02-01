@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.experience {
+    padding: 40px 0;
+    min-height: 100vh;
+}
+
+.experience .section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+
+.experience .section-title .back {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.experience .section-title .back:hover {
+    background: #e8e8e8;
+}
+
+.experience .section-title .back a {
+    text-decoration: none;
+    color: #333;
+}
+
+.experience .section-title .title {
+    flex: 1;
+    text-align: center;
+}
+
+.experience .section-title .title h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+}
+
+.experience-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.company-section {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.company-header {
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.company-header h2 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.company-header .position {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.company-header .meta {
+    font-size: 14px;
+    color: #888;
+    margin: 5px 0 0 0;
+}
+
+.experience-content h3 {
+    font-size: 18px;
+    margin: 30px 0 15px 0;
+    color: #333;
+}
+
+.responsibilities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.responsibilities li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.responsibilities a,
+.links a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.responsibilities a:hover,
+.links a:hover {
+    text-decoration: underline;
+}
+
+.tech-stack p {
+    color: #666;
+    line-height: 1.8;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .company-section {
+        padding: 30px 20px;
+    }
+
+    .experience .section-title {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .experience .section-title .back {
+        align-self: flex-start;
+    }
+}
