@@ -1,6 +1,6 @@
 # Saikesav's Portfolio Website 🌐
 
-Welcome to the repository for my portfolio website, [www.saikesav.tech](http://www.saikesav.tech)! 🚀
+Welcome to the repository for my portfolio website, [www.saikesav.com](http://www.saikesav.com)! 🚀
 
 ## About 📖
 
